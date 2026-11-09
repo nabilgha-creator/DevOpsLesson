@@ -7,25 +7,25 @@
         <mxCell id="lyWH4yIuIJE6hO4CtkaB-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;fillColor=#FF0080;fontColor=#000000;strokeColor=light-dark(#000000,#3333FF);gradientColor=#FFCCE6;rotation=0;opacity=60;" value="" vertex="1">
           <mxGeometry height="570" width="850" x="-170" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="lyWH4yIuIJE6hO4CtkaB-1" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="AZURE STATIC WEB APP&lt;div&gt;frontend&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;React / Vite&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="lyWH4yIuIJE6hO4CtkaB-1" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;GOOGLE CLOUD RUN&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;frontend&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;&amp;nbsp;React / Vite&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="160" x="130" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="lyWH4yIuIJE6hO4CtkaB-11" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#d80073;" target="lyWH4yIuIJE6hO4CtkaB-8">
+        <mxCell id="lyWH4yIuIJE6hO4CtkaB-11" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#E006CE;" target="lyWH4yIuIJE6hO4CtkaB-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lyWH4yIuIJE6hO4CtkaB-12" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-2" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#d80073;" target="lyWH4yIuIJE6hO4CtkaB-4">
+        <mxCell id="lyWH4yIuIJE6hO4CtkaB-12" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-2" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#E006CE;" target="lyWH4yIuIJE6hO4CtkaB-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lyWH4yIuIJE6hO4CtkaB-13" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#d80073;" target="lyWH4yIuIJE6hO4CtkaB-3">
+        <mxCell id="lyWH4yIuIJE6hO4CtkaB-13" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#E006CE;" target="lyWH4yIuIJE6hO4CtkaB-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lyWH4yIuIJE6hO4CtkaB-2" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="AZURE APP SERVICE&lt;div&gt;Backend /&amp;nbsp;&amp;nbsp;&lt;br&gt;OS Linux / python 3.11+ /&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;uvicorn / FastAPI&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="lyWH4yIuIJE6hO4CtkaB-2" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;GOOGLE CLOUD RUN&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;Backend /&amp;nbsp;&amp;nbsp;&lt;br&gt;OS Linux / python 3.11+ /&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;uvicorn / FastAPI&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="160" x="130" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="lyWH4yIuIJE6hO4CtkaB-3" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="AZURE BLOB STORAGE&amp;nbsp;&lt;div&gt;stockage des fichiers pdf et json&lt;/div&gt;" vertex="1">
+        <mxCell id="lyWH4yIuIJE6hO4CtkaB-3" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;Cloud Storage / Bucket&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;stockage des fichiers pdf et json&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="160" x="500" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="lyWH4yIuIJE6hO4CtkaB-4" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="Azure PostgreSQL&lt;div&gt;base de données&lt;/div&gt;" vertex="1">
+        <mxCell id="lyWH4yIuIJE6hO4CtkaB-4" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;CLOUD SQL&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(98, 31, 255);&quot;&gt;base de données&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="160" x="440" y="370" as="geometry" />
         </mxCell>
         <mxCell id="lyWH4yIuIJE6hO4CtkaB-15" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A50040;fillColor=#d80073;" target="lyWH4yIuIJE6hO4CtkaB-1">
@@ -36,7 +36,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1wvBUd3q-2AmC6KS11o6-1" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-6" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A50040;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;fillColor=#d80073;" target="lyWH4yIuIJE6hO4CtkaB-2">
+        <mxCell id="1wvBUd3q-2AmC6KS11o6-1" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-6" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A50040;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;fillColor=#E006CE;" target="lyWH4yIuIJE6hO4CtkaB-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lyWH4yIuIJE6hO4CtkaB-6" parent="1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;" value="navigateur" vertex="1">
@@ -69,7 +69,7 @@
         <mxCell id="lyWH4yIuIJE6hO4CtkaB-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FFFFFF;" value="Requête SQL via TCP&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="100" x="320" y="524.5" as="geometry" />
         </mxCell>
-        <mxCell id="lyWH4yIuIJE6hO4CtkaB-37" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#d80073;" target="lyWH4yIuIJE6hO4CtkaB-35" value="">
+        <mxCell id="lyWH4yIuIJE6hO4CtkaB-37" edge="1" parent="1" source="lyWH4yIuIJE6hO4CtkaB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#E006CE;" target="lyWH4yIuIJE6hO4CtkaB-35" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="675" as="sourcePoint" />
             <mxPoint x="500" y="675" as="targetPoint" />
