@@ -1,0 +1,34 @@
+name: DevOpsLessons
+
+on:                     # quand le lancer
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend:        # nom du job, au choix
+    runs-on: ubuntu-latest      # la machine utilisée
+    defaults:
+      run:
+        working-directory: backend   # où lancer les commandes
+    steps:
+        - uses: actions/checkout@v4     # récupère ton code sur la machine GitHub
+        - uses: astral-sh/setup-uv@v6   # installe uv        # récupère ton code
+        - name: Linter
+          run: uv run --extra dev ruff check .
+        - name : pytest
+          run : uv run --extra dev pytest
+
+  frontend:
+        runs-on: ubuntu-latest      # la machine utilisée
+        defaults:
+            run:
+                working-directory: frontend  
+        steps:
+            - uses : actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                node-version: 22
+            - name : ci 
+              run : npm ci
+            - name : build 
+              run : npm run build
