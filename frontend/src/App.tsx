@@ -7,7 +7,7 @@ export default function App() {
       <header className="app-header">
         <div className="brand">
           <strong>FFK</strong>
-          <span>Service des Grades</span>
+          <span>Pierre nous fait bosser gratos</span>
         </div>
       </header>
 
