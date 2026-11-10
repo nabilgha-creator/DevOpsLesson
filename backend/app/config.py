@@ -21,6 +21,7 @@ class Settings(BaseSettings):
     llm_base_url: str = ""
     llm_model: str = ""
     llm_api_key: SecretStr = SecretStr("")
+    bucket_name : str = ""
 
     @property
     def cors_origin_list(self) -> list[str]:

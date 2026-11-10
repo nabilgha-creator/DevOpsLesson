@@ -9,7 +9,7 @@ from app.config import Settings
 from app.database import init_db, make_engine
 from app.llm import LLMError, LLMService
 from app.routes import documents, health
-from app.storage import LocalStorage
+from app.storage import CloudStorage, LocalStorage
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 
@@ -34,7 +34,11 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     # Services partagés, fournis aux routes par app/deps.py.
     app.state.engine = engine
     app.state.llm = LLMService(settings)
-    app.state.storage = LocalStorage(settings.data_dir / "documents")
+    if not settings.bucket_name:
+        app.state.storage = LocalStorage(settings.data_dir / "documents")
+    else : 
+        app.state.storage = CloudStorage(bucket_name=settings.bucket_name)
+        
 
     app.add_middleware(
         CORSMiddleware,
