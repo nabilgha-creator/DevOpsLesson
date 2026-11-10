@@ -1,6 +1,8 @@
 from pathlib import Path
-from google.cloud import storage
+
 from google.api_core.exceptions import NotFound
+from google.cloud import storage
+
 
 class LocalStorage:
     """Stockage des PDF dans un dossier local.

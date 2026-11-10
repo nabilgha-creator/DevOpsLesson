@@ -9,7 +9,7 @@ from app.config import Settings
 from app.database import init_db, make_engine
 from app.llm import LLMError, LLMService
 from app.routes import documents, health
-from app.storage import LocalStorage, CloudStorage
+from app.storage import CloudStorage, LocalStorage
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 
